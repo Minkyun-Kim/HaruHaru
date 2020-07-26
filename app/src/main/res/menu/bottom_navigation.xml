@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab1"
+        android:tooltipText="달력"
+        android:title="달력"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/tab2"
+        android:tooltipText="목표"
+        android:title="목표"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/tab3"
+        android:tooltipText="통계"
+        android:title="통계"
+        android:enabled="true"/>
+</menu>
