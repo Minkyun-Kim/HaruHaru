@@ -11,6 +11,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.haruharu.Adapter.OneDayAdapter;
 import com.example.haruharu.data.OneDay;
 
 public class Fragment1 extends Fragment {
@@ -32,7 +33,7 @@ public class Fragment1 extends Fragment {
     public void initUI(ViewGroup rootView){
 
 
-        recyclerView = rootView.findViewById(R.id.recyclerView);
+        recyclerView = rootView.findViewById(R.id.recyclerView1);
         GridLayoutManager layoutManager = new GridLayoutManager(getContext(), 5);
         recyclerView.setLayoutManager(layoutManager);
 

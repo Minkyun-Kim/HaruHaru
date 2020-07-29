@@ -1,4 +1,4 @@
-package com.example.haruharu;
+package com.example.haruharu.Adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.haruharu.R;
 import com.example.haruharu.data.OneDay;
 
 import java.util.ArrayList;
