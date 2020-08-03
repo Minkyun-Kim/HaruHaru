@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
         fragment2 = new Fragment2();
         fragment3 = new Fragment3();
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment1).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.container, fragment2).commit();
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
-        bottomNavigationView.setSelectedItemId(R.id.tab1);
+        bottomNavigationView.setSelectedItemId(R.id.tab2);
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override

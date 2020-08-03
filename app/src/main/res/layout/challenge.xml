@@ -34,11 +34,13 @@
                     android:text="목표"
                     android:textSize="15sp" />
 
-                <EditText
+                <TextView
                     android:id="@+id/goal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:layout_marginLeft="5dp"
+                    android:gravity="center"
                     android:ems="10"
                     android:text="목표명(eg: 독서, 조깅)"
                     android:textSize="20sp" />
@@ -48,6 +50,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
                     android:text="목표 시간"
                     android:textSize="15sp"/>
 
@@ -61,7 +64,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="2"
-                        android:gravity="bottom|right"
+                        android:gravity="center_vertical|right"
 
                         android:text="1"
                         android:textSize="24sp" />
@@ -71,7 +74,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="bottom|left"
+                        android:gravity="center_vertical|left"
                         android:text="시간"
                         android:textSize="16sp" />
 
@@ -80,7 +83,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="bottom|right"
+                        android:gravity="center_vertical|right"
                         android:text="30"
                         android:textSize="24sp" />
 
@@ -89,7 +92,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_weight="2"
-                        android:gravity="bottom|left"
+                        android:gravity="center_vertical|left"
                         android:text="분"
                         android:textSize="16sp" />
 
